@@ -8,6 +8,8 @@ $(document).ready(function () {
             $('#links').hide();
             $('#toggler').show();
             $('#line').hide()
+            $('#moon').hide()
+            $('#getstart').css({"padding-left":"34vw"})
     }
     else{
         $('#links').show();
@@ -22,6 +24,8 @@ $(document).ready(function () {
             $('#links').hide();
             $('#toggler').show();
             $('#line').hide()
+            $('#moon').hide()
+            $('#getstart').css({"padding-left":"34vw"})
         }
         else {
             $('#toggler').hide();
@@ -29,6 +33,8 @@ $(document).ready(function () {
             $('#links').css({ "top": '', 'position': '' })
             $('#line').hide();
             $('#dd').css({"display":"block"})
+            $('#moon').show()
+            $('#getstart').css({"padding-left":"43vw"})
         }
     }
         
