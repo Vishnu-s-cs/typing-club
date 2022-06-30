@@ -197,6 +197,13 @@ a
 .start button:hover{
   box-shadow: rgb(181,251,152)0px 0px 10px 0px;
 }
-.cloud{
-
+.whatis{
+  background-color: white;
+}
+.que{
+  width: 27vw;
+}
+.padding-0{
+  padding-bottom:0;
+  
 }
