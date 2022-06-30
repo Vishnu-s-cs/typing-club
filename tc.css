@@ -16,7 +16,8 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 #logo{
     font-family: 'Montserrat';
@@ -152,4 +153,50 @@ a
     width: 56px;
     padding: 10px;
     padding-right: 87px;
+}
+.banner{
+  margin-top: 17vh;
+  height: 67vh;
+
+
+}
+.moon{
+  margin-left: 18rem;
+}
+.moon img{
+ 
+  box-shadow: 0rem 0rem 11rem #ccc;
+  -webkit-border-radius: 10rem;
+  animation-name: scale-in;
+  animation-duration: .6s;
+  
+}
+@keyframes scale-in {
+  0% {
+    height: 15rem;
+  }
+  100% {
+    height: 20rem;
+  }
+}
+.start{
+  color: white;
+   position: absolute;
+   padding-left: 43vw;
+   width: 100%;
+}
+.start button{
+  width: 16vw;
+  height: 50px;
+  border-radius: 1rem;
+  color: #084f8e;
+  font-size: 1.5rem;
+  margin-top: 5vh;
+  min-width: fit-content;
+}
+.start button:hover{
+  box-shadow: rgb(181,251,152)0px 0px 10px 0px;
+}
+.cloud{
+
 }
