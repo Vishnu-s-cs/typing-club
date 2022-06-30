@@ -10,6 +10,8 @@ $(document).ready(function () {
             $('#line').hide()
             $('#moon').hide()
             $('#getstart').css({"padding-left":"34vw"})
+            $("#demo").hide()
+            $("#box").css({"margin-left":"9vw"})
     }
     else{
         $('#links').show();
@@ -26,6 +28,8 @@ $(document).ready(function () {
             $('#line').hide()
             $('#moon').hide()
             $('#getstart').css({"padding-left":"34vw"})
+            $("#demo").hide()
+            $("#box").css({"margin-left":"9vw"})
         }
         else {
             $('#toggler').hide();
@@ -35,6 +39,8 @@ $(document).ready(function () {
             $('#dd').css({"display":"block"})
             $('#moon').show()
             $('#getstart').css({"padding-left":"43vw"})
+            $("#demo").show()
+            $("#box").css({"margin-left":"26vw"})
         }
     }
         
