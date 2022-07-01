@@ -211,3 +211,12 @@ footer{
   background-color: #262f36;
  
 }
+footer button{
+  width: 16vw;
+  height: 50px;
+  border-radius: 1rem;
+  color: #084f8e;
+  font-size: 1.5rem;
+  margin-top: 5vh;
+  min-width: fit-content;
+}
