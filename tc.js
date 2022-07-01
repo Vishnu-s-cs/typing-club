@@ -11,11 +11,14 @@ $(document).ready(function () {
             $('#moon').hide()
             $('#getstart').css({"padding-left":"34vw"})
             $("#demo").hide()
-            $("#box").css({"margin-left":"9vw"})
+            // $("#box").css({"margin-left":"9vw"})
     }
     else{
         $('#links').show();
     $('#toggler').hide();
+}
+if (width<400) {
+    $("#box").css({"margin-left":"-24vw"})
 }
 
 
@@ -29,7 +32,7 @@ $(document).ready(function () {
             $('#moon').hide()
             $('#getstart').css({"padding-left":"34vw"})
             $("#demo").hide()
-            $("#box").css({"margin-left":"9vw"})
+            // $("#box").css({"margin-left":"9vw"})
         }
         else {
             $('#toggler').hide();
@@ -40,6 +43,11 @@ $(document).ready(function () {
             $('#moon').show()
             $('#getstart').css({"padding-left":"43vw"})
             $("#demo").show()
+            $("#box").css({"margin-left":"26vw"})
+        }
+        if (width<400) {
+            $("#box").css({"margin-left":"-24vw"})
+        }else{
             $("#box").css({"margin-left":"26vw"})
         }
     }
